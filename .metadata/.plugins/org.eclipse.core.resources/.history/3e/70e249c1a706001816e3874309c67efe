@@ -1,0 +1,26 @@
+package Builder;
+
+//供应商(按照汽车型号进行生产,向购买者提供汽车)
+public class Supplier {
+	
+	//要有生产统一的流程规范
+	private BuilderCar builderCar;
+    
+	//通过set方法将流程规范细化,进行某一型号汽车的生产
+	public void setBuilderCar(BuilderCar builderCar) {
+		this.builderCar = builderCar;
+	}
+	
+	//生产具体型号的汽车
+	public CarMedal build(){
+		builderCar.setColor();
+		builderCar.setPrice();
+		return builderCar.getCar();
+		
+		
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="POJO.TbUser"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+<fullyQualifiedTypeName name="FactoryMethod.AFactory"/>
+<fullyQualifiedTypeName name="FactoryMethod.MailSender"/>
+<fullyQualifiedTypeName name="FactoryMethod.SendInterface"/>
+<fullyQualifiedTypeName name="FactoryMethod.InformationSender"/>
+<fullyQualifiedTypeName name="FactoryMethod.BFactoey"/>
+<fullyQualifiedTypeName name="AbstractFactory.InformationSender"/>
+<fullyQualifiedTypeName name="AbstractFactory.provider"/>
+<fullyQualifiedTypeName name="AbstractFactory.MailSender"/>
+<fullyQualifiedTypeName name="AbstractFactory.InformationFactory"/>
+<fullyQualifiedTypeName name="AbstractFactory.SendInterface"/>
+<fullyQualifiedTypeName name="Singleton.SingletonDemonA"/>
+<fullyQualifiedTypeName name="Singleton.SingletonDemonB"/>
+<fullyQualifiedTypeName name="Singleton.SingletonDemonC"/>
+<fullyQualifiedTypeName name="Singleton.SingletonDemonC.provideInstance"/>
+<fullyQualifiedTypeName name="Builder.CarMedal"/>
+<fullyQualifiedTypeName name="Builder.Supplier"/>
+<fullyQualifiedTypeName name="Builder.BuilderCar"/>
+<fullyQualifiedTypeName name="Builder.CarB"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,37 @@
+装饰模式
+顾名思义，装饰模式就是给一个对象增加一些新的功能，而且是动态的，要求装饰对象和被装饰对象实现同一个接口，装饰对象持有被装饰对象的实例
+
+
+1、装饰模式：在不必改变原类文件和使用继承的情况下，动态地扩展一个对象的功能。它是通过创建一个包装对象，也就是装饰来包裹真实的对象。
+
+2、装饰模式由4种角色组成：
+（1）抽象构件（Component）角色：给出一个抽象接口，以规范准备接收附加职责的对象。
+（2）具体构件（Concrete Component）角色：定义一个将要接收附加职责的类。
+（3）装饰（Decorator）角色：持有一个构件（Component）对象的实例，并实现一个与抽象构件接口一致的接口，从外类来扩展Component类的功能，但对于Component类来说，是无需知道Decorato的存在的。
+（4）具体装饰（Concrete Decorator）角色：负责给构件对象添加上附加的职责。
+
+public class IOTest {
+
+    public static void main(String[] args) throws IOException {
+        // 流式读取文件
+        DataInputStream dis = null;
+        try{
+            dis = new DataInputStream(
+                    new BufferedInputStream(
+                            new FileInputStream("test.txt")
+                    )
+            );
+            //读取文件内容
+            byte[] bs = new byte[dis.available()];
+            dis.read(bs);
+            String content = new String(bs);
+            System.out.println(content);
+        }finally{
+            dis.close();
+        }
+    }
+
+}
+　观察上面的代码，会发现最里层是一个FileInputStream对象，然后把它传递给一个BufferedInputStream对象，
+经过BufferedInputStream处理，再把处理后的对象传递给了DataInputStream对象进行处理，这个过程其实就是装饰器的组装过程，
+FileInputStream对象相当于原始的被装饰的对象，而BufferedInputStream对象和DataInputStream对象则相当于装饰器。

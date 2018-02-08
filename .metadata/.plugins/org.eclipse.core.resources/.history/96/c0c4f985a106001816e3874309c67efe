@@ -1,0 +1,23 @@
+package Builder;
+
+public class CarA implements CarModel {
+
+	@Override
+	public void setColor() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setPrice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public CarModel getCar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

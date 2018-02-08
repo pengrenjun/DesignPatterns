@@ -1,0 +1,46 @@
+package Builder;
+
+//A型号的汽车
+public class CarA implements CarModel {
+	private String Color;
+	private String Price;
+	
+	public String getColor() {
+		return Color;
+	}
+
+	public void setColor(String color) {
+		Color = color;
+	}
+
+	public String getPrice() {
+		return Price;
+	}
+
+	public void setPrice(String price) {
+		Price = price;
+	}
+
+	private static CarA getCarA(){
+		return new CarA();
+	}
+ 
+	@Override
+	public void setColor() {
+		// TODO Auto-generated method stub
+		CarA.getCarA().setColor("宝石蓝");
+	}
+
+	@Override
+	public void setPrice() {
+		// TODO Auto-generated method stub
+		CarA.getCarA().setPrice("宝石蓝");
+	}
+
+	@Override
+	public CarModel getCar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

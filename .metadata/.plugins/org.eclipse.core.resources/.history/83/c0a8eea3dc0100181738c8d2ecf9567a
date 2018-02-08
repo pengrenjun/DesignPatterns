@@ -1,0 +1,38 @@
+package Comparator;
+
+import java.math.BigDecimal;
+
+import POJO.TbUser;
+
+public class ComparatorTest {
+
+	public ComparatorTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	/*	TbUser user1=new TbUser();
+		TbUser user2=new TbUser();
+		
+		user1.setEmail("qweasdcssfgs@qq.com");
+		user2.setEmail("qweasdcssfgs@qq.com");
+
+		System.out.println(user1.equals(user2));
+		
+		System.out.println(user1.hashCode()+" "+user2.hashCode());*/
+		
+		Float f1=(float) 12.3;
+		Float f2=(float) 12.3;
+		
+		System.out.println(f1.equals(f2));
+		System.out.println(f1.compareTo(f2));
+		System.out.println(f1=f2);
+		
+		
+		
+
+	}
+
+}

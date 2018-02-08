@@ -1,0 +1,9 @@
+package Builder;
+//Æû³µÄ£ÐÍ
+public class CarMedal {
+
+	private String color;
+	private String price;
+	
+	
+}

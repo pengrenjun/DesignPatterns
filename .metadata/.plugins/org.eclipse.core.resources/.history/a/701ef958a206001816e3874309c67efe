@@ -1,0 +1,9 @@
+package Builder;
+
+//Æû³µÄ£ÐÍ
+public interface CarModel {
+   
+	public void setColor();
+	public void setPrice();
+	public CarModel getCar();
+}
