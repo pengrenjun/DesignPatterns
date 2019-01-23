@@ -13,11 +13,15 @@ public class SingletonDemonC {
 
 	// 构建私有内部静态类
 	private static class provideInstance {
-		public static SingletonDemonC instance = new SingletonDemonC();
+		public static final SingletonDemonC instance = new SingletonDemonC();
 	}
 
-	// 创建公有单例方法
-	public static SingletonDemonC getInstance() {
+	/*将构造方法私有化*/
+    private SingletonDemonC() {
+    }
+
+    // 创建公有单例方法
+	public static final SingletonDemonC getInstance() {
 		// 调用内部静态类
 		return provideInstance.instance;
 	}
