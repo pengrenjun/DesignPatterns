@@ -38,7 +38,7 @@ public Prototype  clone()
 
 }
 
-      一般而言，Java语言中的clone()方法满足：
+一般而言，Java语言中的clone()方法满足：
 
 (1) 对任何对象x，都有x.clone() != x，即克隆对象与原型对象不是同一个对象；
 
