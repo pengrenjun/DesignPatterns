@@ -1993,7 +1993,7 @@
   <commands xmi:id="_PMUCTwHxEeiKF7lwUbMk8g" elementId="org.eclipse.recommenders.utils.rcp.commands.openBrowserDialog" commandName="Open a Web browser" category="_PMV3FwHxEeiKF7lwUbMk8g">
     <parameters xmi:id="_PMUCUAHxEeiKF7lwUbMk8g" elementId="org.eclipse.recommenders.utils.rcp.linkContribution.href" name="URI" optional="false"/>
   </commands>
-  <commands xmi:id="_PMUCUQHxEeiKF7lwUbMk8g" elementId="org.eclipse.jdt.ui.edit.text.java.create.delegate.methods" commandName="Generate Delegate Methods" description="Add delegate methods for a type's fields" category="_PMV3EQHxEeiKF7lwUbMk8g"/>
+  <commands xmi:id="_PMUCUQHxEeiKF7lwUbMk8g" elementId="org.eclipse.jdt.ui.edit.text.java.create.Delegate.methods" commandName="Generate Delegate Methods" description="Add Delegate methods for a type's fields" category="_PMV3EQHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMUCUgHxEeiKF7lwUbMk8g" elementId="org.eclipse.gef.ui.palette_view" commandName="Palette" category="_PMV26gHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMUCUwHxEeiKF7lwUbMk8g" elementId="org.eclipse.wst.xml.views.XPathView.prefixes" commandName="&amp;Edit Namespace Prefixes" category="_PMV3EAHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMUCVAHxEeiKF7lwUbMk8g" elementId="org.eclipse.datatools.sqltools.sqleditor.toggleCommentAction" commandName="Toggle Comment" category="_PMV26wHxEeiKF7lwUbMk8g"/>
@@ -2732,7 +2732,7 @@
   <commands xmi:id="_PMVPtQHxEeiKF7lwUbMk8g" elementId="org.eclipse.jdt.ui.edit.text.java.clean.up" commandName="Clean Up" description="Solve problems and improve code style on selected resources" category="_PMV3EQHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMVPtgHxEeiKF7lwUbMk8g" elementId="org.eclipse.datatools.sqltools.sqleditor.GotoMatchingTokenAction" commandName="Goto Matching Token" category="_PMV3CwHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMVPtwHxEeiKF7lwUbMk8g" elementId="org.eclipse.pde.api.tools.ui.setup.projects" commandName="API &amp;Tools Setup..." description="Configure projects for API usage and compatibility checks" category="_PMV3FwHxEeiKF7lwUbMk8g"/>
-  <commands xmi:id="_PMVPuAHxEeiKF7lwUbMk8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.create.delegate.methods" commandName="Generate Delegate Functions" description="Add delegate functions for a type's vars" category="_PMV28wHxEeiKF7lwUbMk8g"/>
+  <commands xmi:id="_PMVPuAHxEeiKF7lwUbMk8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.create.Delegate.methods" commandName="Generate Delegate Functions" description="Add Delegate functions for a type's vars" category="_PMV28wHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMVPuQHxEeiKF7lwUbMk8g" elementId="org.eclipse.jdt.debug.ui.localJavaShortcut.debug" commandName="Debug Java Application" description="Debug Java Application" category="_PMV3BwHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMVPugHxEeiKF7lwUbMk8g" elementId="org.eclipse.ui.navigate.forward" commandName="Forward" description="Navigate forward" category="_PMV29QHxEeiKF7lwUbMk8g"/>
   <commands xmi:id="_PMVPuwHxEeiKF7lwUbMk8g" elementId="org.eclipse.jpt.jpa.eclipselink.ui.convertJavaConverters" commandName="Move Java Converters to XML..." category="_PMV3DwHxEeiKF7lwUbMk8g"/>
