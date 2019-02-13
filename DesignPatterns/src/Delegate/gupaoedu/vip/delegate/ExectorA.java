@@ -6,7 +6,7 @@ public class ExectorA implements IExector {
 
 	@Override
 	public void doing() {
-		System.out.println("员工A开始执行任务A");
+		System.out.println("员工Ab开始执行任务Ab");
 	}
 	
 }
